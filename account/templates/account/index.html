@@ -1,0 +1,74 @@
+{% extends 'account/main.html' %}
+{% load static %}
+{% block title_page %}
+<title>Главная страниица</title>
+{% endblock title_page %}
+{% block content %}
+    <header class="header" id="header">
+        <!--header-start-->
+        <div class="container">
+            <figure class="logo animated fadeInDown delay-07s">
+                <a href="#"><img src="{% static 'img/log.png' %}" alt=""></a>
+            </figure>
+            <h1 class="animated fadeInDown delay-07s">ООО Дельта</h1>
+            <ul class="we-create animated fadeInUp delay-1s">
+                <li>присоединяйся к нам!</li>
+            </ul>
+            
+        </div>
+    </header>
+
+    <section class="main-section alabaster">
+        <!--main-section alabaster-start-->
+        <div class="container">
+            <div class="row">
+                <figure class="col-lg-5 col-sm-4 wow fadeInLeft">
+                    <img src="{% static 'img/Почему у нас.jpg' %}" alt="">
+                </figure>
+                <div class="col-lg-7 col-sm-8 featured-work">
+                    <h2>Почему заказывают у нас?</h2>
+                    <P class="padding-b">ООО «ДЕЛЬТА» - это современное предприятие, осуществляющее промышленный серийный выпуск швейной продукции поточным методом с двухступенчатой системой контроля качества изделий. </P>
+                    <div class="featured-box">
+                        <div class="featured-box-col1 wow fadeInRight delay-02s">
+                            <i class="fa fa-magic"></i>
+                        </div>
+                        <div class="featured-box-col2 wow fadeInRight delay-02s">
+                            <h3>Двухступенчатая система контроля качества</h3>
+                            <p>Несмотря на высокую сложность, обеспечиваем высокое качество товара! </p>
+                        </div>
+                    </div>
+                    <div class="featured-box">
+                        <div class="featured-box-col1 wow fadeInRight delay-04s">
+                            <i class="fa fa-gift"></i>
+                        </div>
+                        <div class="featured-box-col2 wow fadeInRight delay-04s">
+                            <h3>Аккуратная упаковака товар</h3>
+                            <p>Производим аккуратную упаковку товара, чем гарантируем его доставку в лучшем виде! </p>
+                        </div>
+                    </div>
+                    <div class="featured-box">
+                        <div class="featured-box-col1 wow fadeInRight delay-06s">
+                            <i class="fa fa-dashboard"></i>
+                        </div>
+                        <div class="featured-box-col2 wow fadeInRight delay-06s">
+                            <h3>Скоростная доставка</h3>
+                            <p>Производим одну из самых быстрых доставок товара курьером из всех возможных! </p>
+                        </div>
+                    </div>
+                    <a class="Learn-More" href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+
+
+
+    <!--main-section team-end-->
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-logo"><a href="#"><img src="{% static 'img/log.png' %}" alt=""></a></div>
+            <span class="copyright">&copy;Дельта, 2003-2020г. Все права защищены. Использование материалов сайта без разрешения запрещено.</span>
+        </div>
+    </footer>
+
+    {% endblock content %}

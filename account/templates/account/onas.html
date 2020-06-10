@@ -1,0 +1,58 @@
+{% extends 'account/main.html' %}
+{% load static %}
+{% block title_page %}
+<title>О нас</title>
+{% endblock title_page %}
+{% block content %}
+<section class="main-section team" id="team">
+    <!--main-section team-start-->
+    <div class="container">
+        <h2>ООО Дельта</h2>
+        <h6>История становления ООО "ДЕЛЬТА" началась в 2003 году, когда в Таганроге было основано предприятие, занимающееся обеспечением работников различных предприятий средствами индивидуальной защиты (СИЗ). Проработав полтора года с продукцией сторонних организаций, руководство задумалось о создании собственного производства для пошива рабочей спецодежды. И уже в 2005 году открылся первый швейный цех. Объемы изготовления продукции стремительно увеличивались, так что в 2006 году приступил к работе второй швейный цех, в 2007-м – третий. Через два года был организован транспортный, а в 2010 году – вышивальный участок. В 2013 году было сформировано подразделение, занимающееся нанесением на одежду логотипов методом трафаретной печати.</h6>
+        <div class="team-leader-block clearfix">
+            <div class="team-leader-box">
+                <div class="team-leader wow fadeInDown delay-03s">
+                    <div class="team-leader-shadow"><a href="#"></a></div>
+                    <img src="{% static 'img/team-leader-pic1.jpg' %}" alt="">
+                    <ul>
+                        <li><a href="#" class="fa fa-twitter"></a></li>
+                        <li><a href="#" class="fa fa-facebook"></a></li>
+                        <li><a href="#" class="fa fa-google-plus"></a></li>
+                    </ul>
+                </div>
+                <h3 class="wow fadeInDown delay-03s">П. Н. Ильин</h3>
+                <span class="wow fadeInDown delay-03s">Генеральный директор ООО Дельта</span>
+
+            </div>
+            <div class="team-leader-box">
+                <div class="team-leader  wow fadeInDown delay-06s">
+                    <div class="team-leader-shadow"><a href="#"></a></div>
+                    <img src="{% static 'img/team-leader-pic2.jpg' %}" alt="">
+                    <ul>
+                        <li><a href="#" class="fa fa-twitter"></a></li>
+                        <li><a href="#" class="fa fa-facebook"></a></li>
+                        <li><a href="#" class="fa fa-google-plus"></a></li>
+                    </ul>
+                </div>
+                <h3 class="wow fadeInDown delay-06s">В. А. Тронин</h3>
+                <span class="wow fadeInDown delay-06s">Комерческий директор ООО Дельта</span>
+            </div>
+            <div class="team-leader-box">
+                <div class="team-leader wow fadeInDown delay-09s">
+                    <div class="team-leader-shadow"><a href="#"></a></div>
+                    <img src="{% static 'img/team-leader-pic3.jpg' %}" alt="">
+                    <ul>
+                        <li><a href="#" class="fa fa-twitter"></a></li>
+                        <li><a href="#" class="fa fa-facebook"></a></li>
+                        <li><a href="#" class="fa fa-google-plus"></a></li>
+                    </ul>
+                </div>
+                <h3 class="wow fadeInDown delay-09s">Ю. А. Корина</h3>
+                <span class="wow fadeInDown delay-09s">Начальник отдела качества ООО Дельта</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+{% endblock content %}
